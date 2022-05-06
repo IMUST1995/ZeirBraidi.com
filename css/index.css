@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+*{
+box-sizing: border-box;
+font-family: 'Grape Nuts', cursive;
+color: #DAF7A6;
+}
+body{
+  background-color: #a96114;
+  color: #DAF7A6;
+  font-weight: 800;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu{
+    margin-bottom: 1rem;
+    background-color: #da780f
+}
+.linkList{
+    display: flex;
+
+}
+nav ul li{
+    background-color: green;
+    margin: auto 1rem
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 1rem;
+}
+@media (max-width: 500px){
+    .projects {
+    grid-template-columns: 1fr;
+}
+}
+@media (max-width: 700px){
+.projects {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media (max-width: 960px){
+.projects {
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px;
+    background-color: black;
+}
