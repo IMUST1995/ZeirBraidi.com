@@ -2,11 +2,8 @@
 *{
 box-sizing: border-box;
 font-family: 'Grape Nuts', cursive;
-color: #DAF7A6;
 }
 body{
-  background-color: #a96114;
-  color: #DAF7A6;
   font-weight: 800;
   font-size: 1.5rem;
   display: flex;
@@ -18,7 +15,6 @@ ul{
 a{
     text-decoration: none;
 }
-
 header{
     display: flex;
     justify-content: space-evenly;
@@ -26,21 +22,19 @@ header{
 }
 .menu{
     margin-bottom: 1rem;
-    background-color: #da780f
+    
 }
 .linkList{
     display: flex;
 
 }
 nav ul li{
-    background-color: green;
     margin: auto 1rem
 }
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
     padding: 1rem;
 }
 @media (max-width: 500px){
@@ -62,5 +56,4 @@ nav ul li{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 2px;
-    background-color: black;
 }
