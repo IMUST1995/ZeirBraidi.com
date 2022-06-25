@@ -155,7 +155,7 @@ input{
     margin: 2rem;
     padding: 1rem 2rem;
     border-radius: 2rem;
-    transition: all 1.5s;
+    transition: all 1.45s;
 }
 .buttonForm:hover{
     transform: scale(.95);
