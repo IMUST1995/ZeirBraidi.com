@@ -10,9 +10,9 @@ body{
   flex-direction: column;
   color: #2C3337;
 }
-ul{
+/* ul{
     list-style: none;
-}
+} */
 a{
     text-decoration: none;
     color: #eae0d5;
@@ -31,9 +31,11 @@ footer{
 }
 .info{
     color: #eae0d5;
+    text-align: center;
 }
 img.icono-social{
     transition: 1.4s;
+    max-width: 60%;
 }
 img.icono-social:hover{
     opacity: .7;
@@ -172,3 +174,45 @@ input{
 .reverseText-card{
     grid-column: 1 / 2;
 }
+
+/* educationContainers */
+.education{
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    justify-content: center;
+}
+.educationContainer1{
+    background-color: ivory;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.231);
+}
+.educationContainer2{
+    background-color: ivory;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ExperienceContainer1, .ExperienceContainer2{
+    background-color: rgb(201, 226, 255);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.231);
+    margin: 1rem;
+    padding: 1rem;
+}
+.skillsContainer{
+    background-color: rgb(255, 242, 226);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.231);
+    margin: 1rem;
+    padding: 1rem;
+    line-height: 2rem;
+}
+.skillsContainer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}  
